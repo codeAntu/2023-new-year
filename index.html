@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1., user-scalable=no">
+    <title>Happy new Year</title>
+    <link rel="stylesheet" href="lib.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="noSelect">
+    <audio src="./music/tick.mp3" id="tickMusic" autoplay loop></audio>
+    <audio src="./music/background.mp3" id="backgroundMusic" autoplay loop></audio>
+    <div class="welcome" id="welcome">
+        <div class="blank"></div>
+        <h2>Loading...</h2>
+        <img src="./images/newYear.jpg">
+        <button class="press" onclick="start()">START</button>
+        <!-- <div class="blank"></div> -->
+        <p>Loading...</p>
+        <div class="blank"></div>
+        <!-- <input type="color"> -->
+    </div>
+
+    <h1 class="friendName">Hello Ananta</h1>
+    <h1 class="newYearHeading">Happy New Year</h1>
+    <h1 class="newYearHeadingExtra" id="adv">In Advance</h1>
+    <img src="./images/3.jpg" class="imgW">
+
+    <div class="quote" style="margin-bottom: 0px;">
+        <p style="margin-top: 10px; margin-bottom: 40px;">Wishing you a year full of blessing and filled with a new adventure. Happy new year 2023!</p>
+    </div>
+
+    <div class="clocks">
+
+        <div class="top">
+            <div class="clock press">
+                <div class="hour">
+                    <div class="hr"></div>
+                </div>
+                <div class="min">
+                    <div class="mn"></div>
+                </div>
+                <div class="sec">
+                    <div class="sc"></div>
+                </div>
+                <div class="point"></div>
+            </div>
+            <!-- <div class="clock"></div> -->
+        </div>
+    
+        <div class="quote" style="margin-bottom: 40px;">
+            <p id="countDown">42hours 2min 45sec</p>
+        </div>
+        
+    <div class="img">
+        <img src="./images/2.jpg" class="imgW">
+    </div>
+        <h1 class="wishFrom"></h1>
+  
+    <div class="bookDiv">
+        <div class="book">
+            <img src="./images/b/b2.png">
+        </div>
+        <div class="details">
+           <img src="./images/b/p1.jpg">
+        </div>
+    </div>
+    <div class="noti">Click to Open Card</div>
+    <div class="img">
+        <img src="./images/5.jpg" class="imgW" >
+    </div>
+        <div class="bottom">
+            <div class="clockSmall press">2</div>
+            <div class="clockSmall press">0</div>
+            <div class="clockSmall press">2</div>
+            <div class="clockSmall press">3</div>
+        </div>
+    </div>
+
+    <div class="quote">
+        <p>I’m blessed to know that I have friends like you in my life this New Year. Here’s to many years to come!</p>
+    </div>
+    
+    <div class="img">
+        <img src="./images/4.jpg" class="imgW">
+    </div>
+    
+    <div class="bookDiv">
+        <div class="book">
+            <img src="./images/b/b1.png">
+        </div>
+        <div class="details">
+           <img src="./images/b/p2.jpg">
+        </div>
+    </div>
+      <div class="noti">Click to Open Card</div>
+    <div class="img">
+        <img src="./images/6.jpg" class="imgW">
+    </div>
+
+    <div class="quote">
+        <p>May the New Year 2023 bring you more happiness, success, love and blessings!</p>
+    </div>
+    <div class="img">
+        <img src="./images/1.jpg" class="imgW">
+    </div>
+
+       <div class="bookDiv">
+        <div class="book">
+            <img src="./images/b/b3.png">
+        </div>
+        <div class="details">
+               <img src="./images/b/p3.jpg">
+        </div>
+    </div>
+    <div class="noti">Click to Open Card</div>
+
+    <div class="quote">
+        <p>Let this year be the year you seek progress rather than perfection and enjoy every victory you win along the way to your goals.</p>
+    </div>
+   <div class="img">
+        <img src="./images/7.jpg" class="imgW">
+    </div>
+
+    <h1 class="shareDialouge">Share With Your Friends</h1>
+    <div class="share">
+        <input type="text" placeholder="Your Name" id="from">
+        <input type="text" placeholder="Your Friend's Name" id="to">
+        <button class="press" onclick="copyLink()">Copy Link</button>
+        <a href="" id="shareWhatsapp">
+            <button class="press">Send On Whatsapp</button>
+        </a>
+    </div>
+
+    <div class="by">
+        <p>Made By <a href="https://m.facebook.com/100059619393534/">Ananta</a>,
+            <a href="https://github.com/codeAntu">Github</a>,
+            <a href="https://github.com/DarkRoseAbinash/newYear2022">This Project</a>.
+        </p>
+    </div>
+
+    <input type="text" name="" id="hiddenText" style="width: 1px;border: none;outline: none;height: 1px;position: absolute;">
+    <div class="img">
+        <img src="./images/last.jpg" class="imgW">
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/countDown.js"></script>
+    <script src="./js/share.js"></script>
+</body>
+</html>
