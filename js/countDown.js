@@ -23,7 +23,7 @@ function getDateFromMs(ms){
     const hours = (days - Math.floor(days)) * 24;
     const minutes = (hours - Math.floor(hours)) * 60;
     const seconds = (minutes - Math.floor(minutes)) * 60;
-    return $f(days)+" Days " +$f(hours) + " Hours " + $f(minutes) + " Minutes " + $f(seconds) + " Seconds";
+    return $f(hours) + " Hours " + $f(minutes) + " Minutes " + $f(seconds) + " Seconds";
 }
 let $f = f => Math.floor(f);
 
